@@ -1,10 +1,12 @@
-.button1 {
+.button3 {
   padding: 2rem;
   width: 200px;
-  background-color: black;
+  background-color: green;
   color: white;
-  transition-property: width background-color color;
+  transition-property: translate();
+  transition-timing-function: ease;
   transition-duration: 2s;
+  transition-delay: 2s;
   text-wrap: nowrap; // For No text Wrap
   display: flex; // Enables Flexbox
   justify-content: center; //  Horizontal centering
@@ -12,8 +14,6 @@
   cursor: pointer;
 
   &:hover {
-    width: 100px;
-    background-color: white;
-    color: black;
+    transform: translate(900px, 0);
   }
 }
