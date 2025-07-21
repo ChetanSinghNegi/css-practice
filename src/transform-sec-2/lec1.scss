@@ -1,0 +1,203 @@
+.button5 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 2s ease 0s;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+
+  &:hover {
+    //transform: translateX(-400px);
+    transform: translate(400px, 400px);
+  }
+}
+
+.button6 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 20%;
+
+  &:hover {
+    transform: scaleX(2);
+  }
+}
+.button7 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    transform: scaleY(2);
+  }
+}
+.button8 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    transform: rotate(180deg);
+  }
+}
+.button9 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    transform: rotate(-180deg);
+  }
+}
+.button10 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    transform: rotate(1turn);
+  }
+}
+.button11 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    //400grad is 360 degree
+    transform: rotate(200grad);
+  }
+}
+.button12 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  transform-origin: 0% 0%;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    transform: rotate(100grad);
+  }
+}
+.button13 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  transform-origin: 100% 0%;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    transform: rotate(100grad);
+  }
+}
+.button14 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  transform-origin: 100% 100%;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    transform: rotate(100grad);
+  }
+}
+.button15 {
+  padding: 2rem;
+  width: 200px;
+  background-color: black;
+  color: white;
+  transition: transform 1s ease 0s;
+  transform-origin: 0% 100%;
+  text-wrap: nowrap; // For No text Wrap
+  display: flex; // Enables Flexbox
+  justify-content: center; //  Horizontal centering
+  align-items: center; // Vertical centering
+  cursor: pointer;
+  margin-left: 40%;
+  margin-top: 5rem;
+
+  &:hover {
+    transform: rotate(100grad);
+  }
+}
