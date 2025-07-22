@@ -1,11 +1,9 @@
+import "./lect15.scss";
 const Lec15 = () => {
   return (
-    <>
-      <button className="button12">Hover Me</button>
-      <button className="button13">Hover Me</button>
-      <button className="button14">Hover Me</button>
-      <button className="button15">Hover Me</button>
-    </>
+    <div className="button12-container">
+      <a className="button12">Hover Me</a>
+    </div>
   );
 };
 export default Lec15;
