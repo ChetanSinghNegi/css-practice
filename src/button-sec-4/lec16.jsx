@@ -1,4 +1,4 @@
-import "./lect16.scss";
+import "./lec16.scss";
 const Lec16 = () => {
   return (
     <div className="button13-container">

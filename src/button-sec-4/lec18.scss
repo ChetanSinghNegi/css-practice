@@ -1,0 +1,59 @@
+.button14-container {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: gray;
+}
+.button14 {
+  text-decoration: none;
+  padding: 20px 50px;
+  color: black;
+  border: 0.15rem solid red;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-family: "roboto";
+  font-weight: 300;
+  letter-spacing: -2px;
+  cursor: pointer;
+  transition: all 1s;
+  &:hover {
+    transform: scale(1.05);
+    border: 0.3rem solid red;
+    font-size: 45;
+    letter-spacing: 5px;
+    font-weight: bold;
+  }
+}
+
+.button15 {
+  text-decoration: none;
+  font-size: 35px;
+  font-family: sans-serif;
+  border: 2px solid black;
+  padding: 20px 50px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  &::before {
+    content: "YEAH!";
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: orange;
+    transform: translateY(-100%);
+    transition: transform 1s;
+    font-size: 45px;
+    font-family: monospace;
+  }
+  &:hover::before {
+    transform: translateY(0);
+  }
+}

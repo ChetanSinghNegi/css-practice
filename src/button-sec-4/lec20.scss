@@ -1,0 +1,37 @@
+.button16-container {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  background-color: black;
+}
+.button16 {
+  text-decoration: none;
+  padding: 20px 50px;
+  color: white;
+  border: 0.15rem solid white;
+  font-size: 45px;
+  font-family: "roboto";
+  cursor: pointer;
+  transition: all 1s;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 30%;
+    width: 140%;
+    background-color: white;
+    transform: translateX(-80%) rotate(50deg);
+    transition: all 1s;
+  }
+  &:hover::before {
+    transform: translateX(80%) rotate(50deg);
+  }
+  &:hover {
+    background-color: red;
+  }
+}
