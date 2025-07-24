@@ -1,0 +1,55 @@
+.button17-container {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: white;
+}
+.button17 {
+  text-decoration: none;
+  padding: 20px 50px;
+  border: 0.25rem solid black;
+  background-color: black;
+  font-size: 45px;
+  font-family: "roboto";
+  cursor: pointer;
+  transition: all 1s;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    position: absolute;
+    content: "Hover Me";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    transform: translate(-100%, 100%);
+    transition: all 1s;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &::after {
+    position: absolute;
+    content: "Hover Me";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: yellow;
+    transition: all 1s;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &:hover::before {
+    transform: translate(0, 0);
+  }
+  &:hover::after {
+    transform: translate(100%, -100%);
+  }
+}
