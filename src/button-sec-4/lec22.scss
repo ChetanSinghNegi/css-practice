@@ -1,0 +1,41 @@
+.button18-container {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: white;
+}
+.button18 {
+  text-decoration: none;
+  padding: 20px 50px;
+  border: 0.25rem solid black;
+  background-color: white;
+  color: black;
+  font-size: 45px;
+  font-family: monospace;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+  &::before {
+    position: absolute;
+    content: "Hover Me";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    opacity: 0;
+    transition: all 0.5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(5);
+  }
+  &:hover::before {
+    opacity: 1;
+    transform: scale(1);
+  }
+}

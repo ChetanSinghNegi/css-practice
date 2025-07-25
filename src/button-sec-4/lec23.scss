@@ -1,0 +1,43 @@
+.button19-container {
+  display: inline-block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: white;
+}
+.button19 {
+  padding: 20px 50px;
+  background: none;
+  border: 0.25rem solid black;
+  background-color: white;
+  color: black;
+  font-size: 45px;
+  font-family: monospace;
+  cursor: pointer;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+  &:hover {
+    color: white;
+  }
+  &::before {
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 0;
+    height: 0%;
+    width: 100%;
+    background-color: tomato;
+    transition: all 0.5s;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0 0 200px 200px;
+    z-index: -1;
+  }
+  &:hover::before {
+    height: 300%;
+  }
+}
