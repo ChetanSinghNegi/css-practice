@@ -1,10 +1,10 @@
 import "./App.css";
-import Lec26 from "./button-sec-4/lec26";
+import Lec27 from "./button-sec-4/lec27";
 
 function App() {
   return (
     <div>
-      <Lec26 />
+      <Lec27 />
     </div>
   );
 }
