@@ -1,0 +1,81 @@
+.button24-container {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  background-color: #222;
+  justify-content: center;
+  z-index: -20;
+}
+.button24 {
+  position: relative;
+  padding: 20px 50px;
+  font-size: 45px;
+  font-family: monospace;
+  cursor: pointer;
+  transition: all 0.35s;
+  border: 3px solid #f6b93b;
+  overflow: hidden;
+  color: white;
+  z-index: 2;
+  &:hover {
+    color: black;
+  }
+  &::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 25%;
+    height: 100%;
+    width: 25%;
+    background-color: yellow;
+    z-index: -1;
+    transition: all 0.35s;
+    transform: translateY(-100%);
+  }
+  &:hover::before {
+    transform: translateY(0%);
+  }
+  &::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 25%;
+    height: 100%;
+    width: 25%;
+    background-color: yellow;
+    z-index: -1;
+    transition: all 0.35s;
+    transform: translateY(100%);
+  }
+  &:hover::after {
+    transform: translateY(0%);
+  }
+  & .button24-left-boundary {
+    position: absolute;
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+    top: 0;
+    left: 0;
+    transition: all 0.35s;
+    transform: translateX(-100%);
+    z-index: -1;
+  }
+  &:hover .button24-left-boundary {
+    transform: translateX(0%);
+  }
+  & .button24-right-boundary {
+    position: absolute;
+    background-color: yellow;
+    height: 100%;
+    width: 50%;
+    right: 0;
+    top: 0;
+    transition: all 0.35s;
+    transform: translateX(100%);
+    z-index: -1;
+  }
+  &:hover .button24-right-boundary {
+    transform: translateX(0%);
+  }
+}
