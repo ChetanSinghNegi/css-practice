@@ -1,13 +1,40 @@
+:root {
+  /* Background Colors */
+  /* light */
+  --background-light: #fea49f;
+  /* dark */
+  --background-dark: #101357;
+  --modal-background-color: #efefef;
+  /* Button CSS constant */
+  /* light */
+  --button-color-light-primary: black;
+  --button-color-light-secondary: black;
+  --button-background-light-primary: black;
+  --button-background-light-secondary: white;
+  --button-background-light-before-primary: black;
+  --button-background-light-before-secondary: white;
+  --button-background-light-after-primary: black;
+  --button-background-light-after-secondary: white;
+  /* dark */
+  --button-color-dark-primary: black;
+  --button-color-dark-secondary: white;
+  --button-background-dark-primary: white;
+  --button-background-dark-secondary: black;
+  --button-background-dark-before-primary: black;
+  --button-background-dark-before-secondary: white;
+  --button-background-dark-after-primary: black;
+  --button-background-dark-after-secondary: white;
+}
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
